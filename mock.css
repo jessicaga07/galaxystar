@@ -1,0 +1,184 @@
+button {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 2em;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: block;
+    outline: none;
+}
+
+button:hover {
+    background-color: royalblue;
+    cursor: pointer;
+    /* I havent learned cursor yet,
+    unless i skipped it by accident
+    but i had to google how to add 
+    cursor on hover in css */
+}
+
+.kitty {
+    border: 0px solid rgba(255, 255, 255, 0.596);
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    position: absolute;
+    border-radius: 12px;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 5px black;
+    background-color: lightgray;
+}
+
+.picture img {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    /* I was stuck on this border radius how the image
+    i had to create had a border radius in the top and
+    and not the bottom, im not sure if this was in one
+    of the sub-units becuase i dont remember seeing it,
+    but i looked up online and found information on how
+    to accomplish this task here -"https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp"  */
+}
+
+.header {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+}
+
+.sentence {
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.gifs {
+    position: absolute;
+    justify-content: space-around;
+    top: 600px
+}
+
+.work {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(223, 187, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    background-image: url(https://media2.giphy.com/media/JIX9t2j0ZTN9S/200w.webp?cid=ecf05e474i65kvs3bdbn2cupiw6siyr0sxe4b0xbmjzpgls9&rid=200w.webp);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.caption {
+    border: 0px solid black;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    transition: top 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5em;
+}
+
+.gifs:hover .caption {
+    top: 0;
+}
+
+.gifs2 {
+    position: absolute;
+    justify-content: space-around;
+    top: 600px;
+    left: 300px;
+}
+
+.work2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(223, 187, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.img2 {
+    background-image: url(https://media1.giphy.com/media/pHYaWbspekVsTKRFQT/200w.webp?cid=ecf05e47do6baf9r0f56soo00nz6tr0cvostwe7bo30n6nq9&rid=200w.webp);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.caption2 {
+    border: 0px solid black;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    transition: top 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5em;
+}
+
+.gifs2:hover .caption2 {
+    top: 0;
+}
+
+.gifs3 {
+    position: absolute;
+    justify-content: space-around;
+    top: 600px;
+    left: 600px;
+}
+
+.work3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(223, 187, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.img3 {
+    background-image: url(https://media2.giphy.com/media/3oEdvaba4h0I536VYQ/200.webp?cid=ecf05e47gelak6v6tngvk42g253qpipiibui0qd6ps62hcvn&rid=200.webp);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.caption3 {
+    border: 0px solid black;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    transition: top 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5em;
+}
+
+.gifs3:hover .caption3 {
+    top: 0;
+}
